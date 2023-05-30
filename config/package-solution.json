@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "zelar-portal-webparts-client-side-solution",
+    "id": "4f9ddb2a-bcfa-41e0-a235-9760a18d1340",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.17.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "zelarPortalWebparts description"
+      },
+      "longDescription": {
+        "default": "zelarPortalWebparts description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "zelar-portal-webparts Feature",
+        "description": "The feature that activates elements of the zelar-portal-webparts solution.",
+        "id": "e073714f-af01-4d02-82cb-4cdebcf73e21",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/zelar-portal-webparts.sppkg"
+  }
+}

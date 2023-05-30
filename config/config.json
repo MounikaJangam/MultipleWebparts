@@ -1,0 +1,90 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "image-slider-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/imageSlider/ImageSliderWebPart.js",
+          "manifest": "./src/webparts/imageSlider/ImageSliderWebPart.manifest.json"
+        }
+      ]
+    },
+    "quick-links-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/quickLinks/QuickLinksWebPart.js",
+          "manifest": "./src/webparts/quickLinks/QuickLinksWebPart.manifest.json"
+        }
+      ]
+    },
+    "feed-back-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/feedBack/FeedBackWebPart.js",
+          "manifest": "./src/webparts/feedBack/FeedBackWebPart.manifest.json"
+        }
+      ]
+    },
+    "announcements-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/announcements/AnnouncementsWebPart.js",
+          "manifest": "./src/webparts/announcements/AnnouncementsWebPart.manifest.json"
+        }
+      ]
+    },
+    "birthdays-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/birthdays/BirthdaysWebPart.js",
+          "manifest": "./src/webparts/birthdays/BirthdaysWebPart.manifest.json"
+        }
+      ]
+    },
+    "news-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/news/NewsWebPart.js",
+          "manifest": "./src/webparts/news/NewsWebPart.manifest.json"
+        }
+      ]
+    },
+    "opinion-poll-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/opinionPoll/OpinionPollWebPart.js",
+          "manifest": "./src/webparts/opinionPoll/OpinionPollWebPart.manifest.json"
+        }
+      ]
+    },
+    "trainings-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/trainings/TrainingsWebPart.js",
+          "manifest": "./src/webparts/trainings/TrainingsWebPart.manifest.json"
+        }
+      ]
+    },
+    "tasks-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/tasks/TasksWebPart.js",
+          "manifest": "./src/webparts/tasks/TasksWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "ImageSliderWebPartStrings": "lib/webparts/imageSlider/loc/{locale}.js",
+    "QuickLinksWebPartStrings": "lib/webparts/quickLinks/loc/{locale}.js",
+    "FeedBackWebPartStrings": "lib/webparts/feedBack/loc/{locale}.js",
+    "AnnouncementsWebPartStrings": "lib/webparts/announcements/loc/{locale}.js",
+    "BirthdaysWebPartStrings": "lib/webparts/birthdays/loc/{locale}.js",
+    "NewsWebPartStrings": "lib/webparts/news/loc/{locale}.js",
+    "OpinionPollWebPartStrings": "lib/webparts/opinionPoll/loc/{locale}.js",
+    "TrainingsWebPartStrings": "lib/webparts/trainings/loc/{locale}.js",
+    "TasksWebPartStrings": "lib/webparts/tasks/loc/{locale}.js"
+  }
+}
